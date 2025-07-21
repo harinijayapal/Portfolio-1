@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* ------------- Nav Bar ----------------- */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+/* .logo{
+    background-color: blanchedalmond;
+} */
+.resume-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 70px;
+    height: 30px;
+}
+.options{
+    width: 50%;
+}
+.options > ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+
+/* ------------- Nav Bar ----------------- */
+
+
+/* ------------- carosel ----------------- */
+
+.carosel{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 50px;
+    background-image: url('./asserts/man1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 450px;
+}
+
+.carosel .carosel-content{
+    padding-top: 50px;
+}
+
+.carosel .carosel-content .main-content{
+    font-size: x-large;
+}
+
+.carosel .carosel-content .sub-content{
+    font-size: small;
+    padding-top: 15px;
+    text-align: justify;
+    width: 40%;
+}
+
+.carosel .carosel-content .main-content{
+    font-size: x-large;
+}
+
+.carosel .carosel-content .share-link > ul{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.carosel .carosel-content .share-link > ul > li > img{
+    width: 25px;
+    height: 25px;
+}
+
+.carosel .carosel-content .share-link{
+    padding-top: 30px;
+}
+
+.carosel ul li{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+/* ------------- carosel ----------------- */
+
+
+/* ------------- My skill ----------------- */
+
+.my-skill{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.my-skill h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.my-skill .skill-content-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.my-skill .skill-content-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-skill .small-card{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.my-skill .small-card h4{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.my-skill .small-card .card-img{
+    display: flex;
+    justify-content: center;
+}
+
+.my-skill .small-card img{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* ------------- My skill ----------------- */
+
+
+
+/* ------------- My Experience ----------------- */
+
+.experience{
+    padding-top: 70px;
+    background-color: black;
+    padding-bottom: 90px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.experience .title h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.experience .company-box{
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: white;
+    border: 0.1pt solid white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.experience .company-box .company{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.experience .company-box .company-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience .company-box .company-title .logo img{
+    height: 30px;
+    width: 30px;
+}
+.experience .company-box .company-title .name{
+    margin-left: 30px;
+}
+
+.experience .company-box .timeperiod{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience .company-box .summary{
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.experience .company-box:hover{
+    border: none;
+    background-color: rgb(43, 42, 42);
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    border: 0.1pt solid rgb(43, 42, 42);
+}
+
+/* ------------- My Experience ----------------- */
+
+
+/* ------------- About Me ----------------- */
+
+.about-me{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-me .about-box{
+    display: flex;
+}
+
+.about-me .about-box .about-img{
+    width: 500px;
+}
+
+.about-me .about-box img{
+    width: 500px;
+}
+
+.about-me .about-content{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.about-me .about-content h1{
+    /* text-align: center; */
+    font-size: 40px;
+}
+
+.about-me .about-content .about-summery{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.about-me .about-content .about-summery .summery-content{
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+/* ------------- About Me ----------------- */
+
+/* ------------- My Project ----------------- */
+
+.my-project{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.my-project .pro-title{
+    padding-top: 50px;
+}
+.my-project .pro-title h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.my-project .pro-card{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 60px;
+    margin-top: 50px;
+}
+.my-project .pro-card .pro-img img{
+    border-radius: 15px;
+}
+
+.my-project .pro-card .pro-content{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.my-project .pro-card .pro-content .pro-num{
+    font-size: 35px;
+}
+
+.my-project .pro-card .pro-content .pro-name{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.my-project .pro-card .pro-content .pro-discription{
+    font-size: 14px;
+    margin-top: 15px;
+    color: grey;
+}
+
+/* ------------- My Project ----------------- */
